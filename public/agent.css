@@ -1,0 +1,46 @@
+body {
+  min-height: 35rem;
+}
+.container {
+  margin-top: 20px;
+  width: 100%;
+  display: none;
+  /* flex-wrap: wrap; */
+}
+.participant {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.participant div {
+  text-align: center;
+}
+.participant div:first-child {
+  width: 640px;
+  height: 320px;
+  background-color: #ccc;
+  border: 1px solid black;
+  margin: auto;
+}
+.participant video {
+  width: 100%;
+  height: 100%;
+}
+
+#callButtons {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 50%;
+}
+
+#local {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 180px;
+  width: 240px;
+}
+#local div:first-child video {
+  width: 100%;
+  height: 100%;
+}
