@@ -19,7 +19,7 @@ let room;
 // console.log(agentName.innerHTML);
 agent_name = String(agentName.innerHTML).trim();
 
-var pusher = new Pusher("3784f3ae668680287aa1", {
+var pusher = new Pusher("f42ec837fcdb5bb28b97", {
   cluster: "ap2",
   authEndPoint: "/pusher/auth",
 });

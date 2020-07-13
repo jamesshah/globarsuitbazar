@@ -112,7 +112,7 @@ function loaded() {
   }, 3 * 60 * 1000); // 3 mins timer
 
   // New Pusher Object
-  var pusher = new Pusher("3784f3ae668680287aa1", {
+  var pusher = new Pusher("f42ec837fcdb5bb28b97", {
     cluster: "ap2",
     authEndPoint: "/pusher/auth",
   });
